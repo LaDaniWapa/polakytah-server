@@ -1,5 +1,5 @@
-[20:29:43] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.15.7
-[20:29:43] [main/INFO]: Loading 110 mods:
+[18:02:50] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.15.7
+[18:02:50] [main/INFO]: Loading 110 mods:
 	- ad_astra 1.15.5
 	- argonauts 1.0.8
 	   \-- placeholder-api 2.1.1+1.20
@@ -86,7 +86,7 @@
 	   \-- kyrptconfig 1.5.6-1.20
 	- jade 11.8.0
 	- jamlib 0.6.1+1.20.x
-	- java 17
+	- java 21
 	- jei 15.3.0.4
 	- journeymap 5.9.21
 	   \-- journeymap-api-fabric 1.20-1.9-fabric-SNAPSHOT
@@ -123,11 +123,11 @@
 	   |-- com_twelvemonkeys_imageio_imageio-webp 3.10.0-SNAPSHOT
 	   |-- org_quiltmc_parsers_gson 0.2.1
 	   \-- org_quiltmc_parsers_json 0.2.1
-[20:29:43] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/Daniel/Desktop/polakyta%20server/libraries/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
-[20:29:43] [main/INFO]: Compatibility level set to JAVA_17
-[20:29:44] [main/INFO]: Loaded configuration file for Lithium: 115 options available, 1 override(s) found
-[20:29:44] [main/WARN]: Reference map 'supermartijn642configlib.mixins.refmap.json' for supermartijn642configlib.mixins.json could not be read. If this is a development environment you can ignore this message
-[20:29:44] [main/ERROR]: Could not read config betterchunkloading.json from:config\betterchunkloading.json
+[18:02:50] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/workspaces/polakytah-server/libraries/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[18:02:51] [main/INFO]: Compatibility level set to JAVA_17
+[18:02:51] [main/INFO]: Loaded configuration file for Lithium: 115 options available, 1 override(s) found
+[18:02:51] [main/WARN]: Reference map 'supermartijn642configlib.mixins.refmap.json' for supermartijn642configlib.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:02:51] [main/ERROR]: Could not read config betterchunkloading.json from:config/betterchunkloading.json
 java.lang.NullPointerException: Cannot invoke "com.google.gson.JsonElement.getAsJsonObject()" because the return value of "com.google.gson.JsonObject.get(String)" is null
 	at com.betterchunkloading.config.CommonConfiguration.deserialize(CommonConfiguration.java:78) ~[betterchunkloading-fabric-1.20.1-3.3.jar:?]
 	at com.cupboard.config.CupboardConfig.load(CupboardConfig.java:159) ~[cupboard-fabric-1.20.1-2.6.jar:?]
@@ -150,9 +150,10 @@ java.lang.NullPointerException: Cannot invoke "com.google.gson.JsonElement.getAs
 	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:323) ~[fabric-loader-0.15.7.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:218) ~[fabric-loader-0.15.7.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119) ~[fabric-loader-0.15.7.jar:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
 	at java.lang.Class.forName0(Native Method) ~[?:?]
-	at java.lang.Class.forName(Class.java:467) ~[?:?]
+	at java.lang.Class.forName(Class.java:534) ~[?:?]
+	at java.lang.Class.forName(Class.java:513) ~[?:?]
 	at net.fabricmc.loader.impl.util.DefaultLanguageAdapter.create(DefaultLanguageAdapter.java:50) ~[fabric-loader-0.15.7.jar:?]
 	at net.fabricmc.loader.impl.entrypoint.EntrypointStorage$NewEntry.getOrCreate(EntrypointStorage.java:117) ~[fabric-loader-0.15.7.jar:?]
 	at net.fabricmc.loader.impl.entrypoint.EntrypointContainerImpl.getEntrypoint(EntrypointContainerImpl.java:53) ~[fabric-loader-0.15.7.jar:?]
@@ -162,7 +163,7 @@ java.lang.NullPointerException: Cannot invoke "com.google.gson.JsonElement.getAs
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.7.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.15.7.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-mc.1.20.1-loader.0.15.7-launcher.1.0.1.jar:1.0.1]
-[20:29:44] [main/ERROR]: Could not read config betterchunkloading.json from:config\betterchunkloading.json
+[18:02:51] [main/ERROR]: Could not read config betterchunkloading.json from:config/betterchunkloading.json
 java.lang.NullPointerException: Cannot invoke "com.google.gson.JsonElement.getAsJsonObject()" because the return value of "com.google.gson.JsonObject.get(String)" is null
 	at com.betterchunkloading.config.CommonConfiguration.deserialize(CommonConfiguration.java:78) ~[betterchunkloading-fabric-1.20.1-3.3.jar:?]
 	at com.cupboard.config.CupboardConfig.load(CupboardConfig.java:159) ~[cupboard-fabric-1.20.1-2.6.jar:?]
@@ -187,9 +188,10 @@ java.lang.NullPointerException: Cannot invoke "com.google.gson.JsonElement.getAs
 	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:323) ~[fabric-loader-0.15.7.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:218) ~[fabric-loader-0.15.7.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119) ~[fabric-loader-0.15.7.jar:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
 	at java.lang.Class.forName0(Native Method) ~[?:?]
-	at java.lang.Class.forName(Class.java:467) ~[?:?]
+	at java.lang.Class.forName(Class.java:534) ~[?:?]
+	at java.lang.Class.forName(Class.java:513) ~[?:?]
 	at net.fabricmc.loader.impl.util.DefaultLanguageAdapter.create(DefaultLanguageAdapter.java:50) ~[fabric-loader-0.15.7.jar:?]
 	at net.fabricmc.loader.impl.entrypoint.EntrypointStorage$NewEntry.getOrCreate(EntrypointStorage.java:117) ~[fabric-loader-0.15.7.jar:?]
 	at net.fabricmc.loader.impl.entrypoint.EntrypointContainerImpl.getEntrypoint(EntrypointContainerImpl.java:53) ~[fabric-loader-0.15.7.jar:?]
@@ -199,7 +201,7 @@ java.lang.NullPointerException: Cannot invoke "com.google.gson.JsonElement.getAs
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.7.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.15.7.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-mc.1.20.1-loader.0.15.7-launcher.1.0.1.jar:1.0.1]
-[20:29:44] [main/ERROR]: Could not read config betterchunkloading.json from:config\betterchunkloading.json
+[18:02:51] [main/ERROR]: Could not read config betterchunkloading.json from:config/betterchunkloading.json
 java.lang.NullPointerException: Cannot invoke "com.google.gson.JsonElement.getAsJsonObject()" because the return value of "com.google.gson.JsonObject.get(String)" is null
 	at com.betterchunkloading.config.CommonConfiguration.deserialize(CommonConfiguration.java:78) ~[betterchunkloading-fabric-1.20.1-3.3.jar:?]
 	at com.cupboard.config.CupboardConfig.load(CupboardConfig.java:159) ~[cupboard-fabric-1.20.1-2.6.jar:?]
@@ -226,9 +228,10 @@ java.lang.NullPointerException: Cannot invoke "com.google.gson.JsonElement.getAs
 	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:323) ~[fabric-loader-0.15.7.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:218) ~[fabric-loader-0.15.7.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119) ~[fabric-loader-0.15.7.jar:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
 	at java.lang.Class.forName0(Native Method) ~[?:?]
-	at java.lang.Class.forName(Class.java:467) ~[?:?]
+	at java.lang.Class.forName(Class.java:534) ~[?:?]
+	at java.lang.Class.forName(Class.java:513) ~[?:?]
 	at net.fabricmc.loader.impl.util.DefaultLanguageAdapter.create(DefaultLanguageAdapter.java:50) ~[fabric-loader-0.15.7.jar:?]
 	at net.fabricmc.loader.impl.entrypoint.EntrypointStorage$NewEntry.getOrCreate(EntrypointStorage.java:117) ~[fabric-loader-0.15.7.jar:?]
 	at net.fabricmc.loader.impl.entrypoint.EntrypointContainerImpl.getEntrypoint(EntrypointContainerImpl.java:53) ~[fabric-loader-0.15.7.jar:?]
@@ -238,149 +241,140 @@ java.lang.NullPointerException: Cannot invoke "com.google.gson.JsonElement.getAs
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.7.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.15.7.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-mc.1.20.1-loader.0.15.7-launcher.1.0.1.jar:1.0.1]
-[20:29:45] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [krypton]) disables it and children
-[20:29:45] [main/INFO]: [MemoryLeakFix] Will be applying 1 memory leak fixes!
-[20:29:45] [main/INFO]: [MemoryLeakFix] Currently enabled memory leak fixes: [biomeTemperatureLeak]
-[20:29:45] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
-[20:29:54] [main/INFO]: Loaded config for: cupboard.json
-[20:29:54] [main/INFO]: [rightclickharvest] Initializing VersionUtils
-[20:29:54] [main/INFO]: [rightclickharvest] VersionUtils initialized successfully
-[20:29:56] [main/INFO]: betterchunkloading mod initialized
-[20:29:58] [main/ERROR]: No data fixer registered for handcrafted
-[20:29:58] [main/INFO]: [jamlib] Mod initialized!
-[20:29:58] [main/INFO]: Initializing ServerSide Packet Registries
-[20:29:58] [main/INFO]: Compression will use Java, encryption will use Java
-[20:29:58] [main/INFO]: [jamlib] Registered config for rightclickharvest
-[20:29:58] [main/INFO]: [rightclickharvest] Mod initialized!
-[20:29:58] [main/INFO]: Registering Item Groups for testmod
-[20:29:58] [main/INFO]: Registering items for testmod
-[20:29:58] [main/INFO]: Registering blocks for testmod
-[20:29:58] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack ?
-[20:29:59] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[20:30:01] [main/INFO]: Loaded 14 recipes
-[20:30:01] [main/INFO]: Loaded 1635 advancements
-[20:30:03] [main/INFO]: Applied 0 biome modifications to 0 of 74 new biomes in 1.391 ms
-[20:30:03] [Server thread/INFO]: Starting background profiler...
-[20:30:03] [Server thread/INFO]: The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
-[20:30:03] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[20:30:03] [Server thread/INFO]: Loading properties
-[20:30:03] [Server thread/INFO]: Default game type: SURVIVAL
-[20:30:03] [Server thread/INFO]: Generating keypair
-[20:30:03] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:30:03] [Server thread/INFO]: Using default channel type
-[20:30:03] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[20:30:03] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[20:30:03] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[20:30:03] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[20:30:03] [Server thread/INFO]: Preparing level "world"
-[20:30:05] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[20:30:07] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[20:30:07] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[20:30:07] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[20:30:07] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[20:30:07] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[20:30:08] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[20:30:08] [Worker-Main-2/INFO]: Preparing spawn area: 21%
-[20:30:08] [Server thread/INFO]: Time elapsed: 3176 ms
-[20:30:08] [Server thread/INFO]: Done (4.735s)! For help, type "help"
-[20:30:08] [Server thread/INFO]: Start loading plugin from Beautify
-[20:30:08] [Server thread/INFO]: Start loading plugin from Jade
-[20:30:08] [Server thread/INFO]: Start loading plugin from Jade
-[20:30:08] [Server thread/INFO]: Start loading plugin from Jade
-[20:31:25] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[20:31:25] [Server thread/INFO]: <--[HERE]
-[20:33:48] [Server thread/INFO]: Juxnlx[/[0:0:0:0:0:0:0:1]:50065] logged in with entity id 17 at (-602.4932860377113, 68.4880741835653, -357.7447900446699)
-[20:33:48] [Server thread/INFO]: Syncing config to Juxnlx (19f59efe-b029-3a48-bb4f-879ea92f269a)
-[20:33:48] [Server thread/INFO]: Juxnlx joined the game
-[20:34:15] [Server thread/INFO]: LaDaniWapa[/127.0.0.1:50068] logged in with entity id 246 at (50.583427207109814, 91.9375, -512.0042564858923)
-[20:34:15] [Server thread/INFO]: Syncing config to LaDaniWapa (fa6edcf1-452e-37fb-8e93-05d296a1a7e3)
-[20:34:15] [Server thread/INFO]: LaDaniWapa joined the game
-[20:34:16] [Server thread/INFO]: [STDOUT]: Finalizing energy block registration
-[20:34:46] [Server thread/INFO]: [STDOUT]: Finalizing fluid block registration
-[20:37:32] [Server thread/INFO]: [LaDaniWapa: Applied enchantment Efficiency V to LaDaniWapa's item]
-[20:37:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=53, y=94, z=-537} class_2338{x=54, y=94, z=-537}
-[20:37:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=53, y=94, z=-537} class_2338{x=54, y=94, z=-537}
-[20:37:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=53, y=94, z=-537} class_2338{x=54, y=94, z=-537}
-[20:37:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=53, y=94, z=-537} class_2338{x=54, y=94, z=-537}
-[20:37:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=53, y=94, z=-537} class_2338{x=54, y=94, z=-537}
-[20:39:54] [Server thread/INFO]: [LaDaniWapa: Teleported LaDaniWapa to Juxnlx]
-[20:42:42] [Server thread/WARN]: Juxnlx moved too quickly! 7.784747820407233,0.0,-6.455890570789336
-[20:42:46] [Server thread/INFO]: Juxnlx lost connection: Disconnected
-[20:42:46] [Server thread/INFO]: Juxnlx left the game
-[20:43:20] [Server thread/INFO]: Juxnlx[/[0:0:0:0:0:0:0:1]:50094] logged in with entity id 2952 at (-596.0484671616617, 67.1983011331206, -371.5002711328165)
-[20:43:20] [Server thread/INFO]: Syncing config to Juxnlx (19f59efe-b029-3a48-bb4f-879ea92f269a)
-[20:43:20] [Server thread/INFO]: Juxnlx joined the game
-[20:44:37] [Server thread/INFO]: LaDaniWapa lost connection: Disconnected
-[20:44:37] [Server thread/INFO]: LaDaniWapa left the game
-[20:44:52] [Server thread/INFO]: LaDaniWapa[/127.0.0.1:50113] logged in with entity id 3307 at (-575.2146957708675, 65.0, -374.47475259136183)
-[20:44:52] [Server thread/INFO]: Syncing config to LaDaniWapa (fa6edcf1-452e-37fb-8e93-05d296a1a7e3)
-[20:44:52] [Server thread/INFO]: LaDaniWapa joined the game
-[20:47:57] [Server thread/INFO]: [LaDaniWapa: Gave 10 [Pink Candle] to LaDaniWapa]
-[20:48:27] [Server thread/INFO]: [LaDaniWapa: Gave 1 [Flint and Steel] to LaDaniWapa]
-[20:49:36] [Server thread/INFO]: Mariaatleta04[/[0:0:0:0:0:0:0:1]:50128] logged in with entity id 4241 at (95.995826531912, 92.875, -498.10488081641444)
-[20:49:36] [Server thread/INFO]: Syncing config to Mariaatleta04 (242ccc22-3e60-3b42-b88e-444441ad5b34)
-[20:49:36] [Server thread/INFO]: Mariaatleta04 joined the game
-[20:51:20] [Server thread/INFO]: [Mariaatleta04: Teleported Mariaatleta04 to Juxnlx]
-[20:52:03] [Server thread/INFO]: [LaDaniWapa: Teleported LaDaniWapa to Mariaatleta04]
-[20:52:03] [Server thread/WARN]: LaDaniWapa moved too quickly! -735.5900524932691,-30.0,129.83051806349135
-[20:52:03] [Server thread/WARN]: LaDaniWapa moved too quickly! -735.5900524932691,-30.0,129.83051806349135
-[20:53:47] [Server thread/INFO]: Mariaatleta04 has made the advancement [Isn't It Iron Pick]
-[20:54:15] [Server thread/INFO]: Mariaatleta04 has made the advancement [Acquire Hardware]
-[20:55:07] [Server thread/INFO]: Mariaatleta04 has made the advancement [Cover Me with Diamonds]
-[21:01:09] [Server thread/INFO]: [LaDaniWapa: Teleported Mariaatleta04 to LaDaniWapa]
-[21:04:50] [Server thread/INFO]: [LaDaniWapa: Teleported Mariaatleta04 to LaDaniWapa]
-[21:06:30] [Server thread/INFO]: LaDaniWapa lost connection: Disconnected
-[21:06:30] [Server thread/INFO]: LaDaniWapa left the game
-[21:06:32] [Server thread/INFO]: Mariaatleta04 lost connection: Disconnected
-[21:06:32] [Server thread/INFO]: Mariaatleta04 left the game
-[21:06:38] [Server thread/INFO]: LaDaniWapa[/127.0.0.1:50134] logged in with entity id 11417 at (-909.655890008214, 64.0, -408.08876776744125)
-[21:06:38] [Server thread/INFO]: Syncing config to LaDaniWapa (fa6edcf1-452e-37fb-8e93-05d296a1a7e3)
-[21:06:38] [Server thread/INFO]: LaDaniWapa joined the game
-[21:06:42] [Server thread/INFO]: Mariaatleta04[/[0:0:0:0:0:0:0:1]:50136] logged in with entity id 11633 at (-908.4965438002889, 64.0, -410.22737021325713)
-[21:06:42] [Server thread/INFO]: Syncing config to Mariaatleta04 (242ccc22-3e60-3b42-b88e-444441ad5b34)
-[21:06:42] [Server thread/INFO]: Mariaatleta04 joined the game
-[21:20:26] [Server thread/INFO]: Mariaatleta04 has made the advancement [Ice Bucket Challenge]
-[21:20:28] [Server thread/INFO]: [LaDaniWapa: Applied enchantment Efficiency V to Mariaatleta04's item]
-[21:33:58] [Server thread/INFO]: [LaDaniWapa: Gave 1 [Dark Oak Sapling] to Mariaatleta04]
-[21:34:07] [Server thread/INFO]: [LaDaniWapa: Gave 3 [Dark Oak Sapling] to Mariaatleta04]
-[21:47:17] [Server thread/INFO]: [LaDaniWapa: Gave 1 [Diamond Axe] to Mariaatleta04]
-[21:49:52] [Server thread/INFO]: [LaDaniWapa: Set own game mode to Creative Mode]
-[21:51:58] [Server thread/INFO]: Mariaatleta04 lost connection: Disconnected
-[21:51:58] [Server thread/INFO]: Mariaatleta04 left the game
-[21:52:07] [Server thread/INFO]: Juxnlx lost connection: Disconnected
-[21:52:07] [Server thread/INFO]: Juxnlx left the game
-[21:52:17] [Server thread/INFO]: LaDaniWapa lost connection: Disconnected
-[21:52:17] [Server thread/INFO]: LaDaniWapa left the game
-[21:52:24] [Server thread/INFO]: Stopping the server
-[21:52:24] [Server thread/INFO]: Stopping server
-[21:52:24] [Server thread/INFO]: Saving players
-[21:52:24] [Server thread/INFO]: Saving worlds
-[21:52:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[21:52:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[21:52:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/ad_astra:glacio
-[21:52:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/ad_astra:venus_orbit
-[21:52:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mars_orbit
-[21:52:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/ad_astra:glacio_orbit
-[21:52:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mercury_orbit
-[21:52:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/ad_astra:earth_orbit
-[21:52:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/ad_astra:moon
-[21:52:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mercury
-[21:52:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mars
-[21:52:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/ad_astra:venus
-[21:52:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/ad_astra:moon_orbit
-[21:52:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[21:52:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[21:52:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[21:52:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (glacio): All chunks are saved
-[21:52:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (venus_orbit): All chunks are saved
-[21:52:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (mars_orbit): All chunks are saved
-[21:52:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (glacio_orbit): All chunks are saved
-[21:52:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (mercury_orbit): All chunks are saved
-[21:52:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (earth_orbit): All chunks are saved
-[21:52:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (moon): All chunks are saved
-[21:52:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (mercury): All chunks are saved
-[21:52:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (mars): All chunks are saved
-[21:52:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (venus): All chunks are saved
-[21:52:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (moon_orbit): All chunks are saved
-[21:52:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[21:52:24] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[18:02:52] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [krypton]) disables it and children
+[18:02:52] [main/INFO]: [MemoryLeakFix] Will be applying 1 memory leak fixes!
+[18:02:52] [main/INFO]: [MemoryLeakFix] Currently enabled memory leak fixes: [biomeTemperatureLeak]
+[18:02:53] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[18:03:07] [main/INFO]: Loaded config for: cupboard.json
+[18:03:07] [main/INFO]: [rightclickharvest] Initializing VersionUtils
+[18:03:07] [main/INFO]: [rightclickharvest] VersionUtils initialized successfully
+[18:03:10] [main/INFO]: betterchunkloading mod initialized
+[18:03:14] [main/ERROR]: No data fixer registered for handcrafted
+[18:03:14] [main/INFO]: [jamlib] Mod initialized!
+[18:03:14] [main/INFO]: Initializing ServerSide Packet Registries
+[18:03:14] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 1.1.x (Linux x86_64)
+[18:03:14] [main/INFO]: [jamlib] Registered config for rightclickharvest
+[18:03:14] [main/INFO]: [rightclickharvest] Mod initialized!
+[18:03:14] [main/INFO]: Registering Item Groups for testmod
+[18:03:14] [main/INFO]: Registering items for testmod
+[18:03:14] [main/INFO]: Registering blocks for testmod
+[18:03:14] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[18:03:14] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18:03:19] [main/INFO]: Loaded 14 recipes
+[18:03:19] [main/INFO]: Loaded 1635 advancements
+[18:03:22] [main/INFO]: Applied 0 biome modifications to 0 of 74 new biomes in 2.440 ms
+[18:03:22] [Server thread/INFO]: Starting background profiler...
+[18:03:23] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[18:03:23] [Server thread/INFO]: Loading properties
+[18:03:23] [Server thread/INFO]: Default game type: SURVIVAL
+[18:03:23] [Server thread/INFO]: Generating keypair
+[18:03:23] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:03:23] [Server thread/INFO]: Using epoll channel type
+[18:03:23] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:03:23] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:03:23] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:03:23] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:03:23] [Server thread/INFO]: Preparing level "world"
+[18:03:31] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:03:39] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:03:39] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:03:39] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:03:39] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:03:39] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:03:39] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:03:39] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:03:39] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:03:39] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:03:39] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:03:39] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:03:39] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:03:39] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:03:39] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:03:39] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:03:39] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:03:39] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:03:39] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:03:40] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:03:41] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:03:41] [Server thread/INFO]: Time elapsed: 10103 ms
+[18:03:41] [Server thread/INFO]: Done (17.751s)! For help, type "help"
+[18:03:41] [Server thread/INFO]: Start loading plugin from Beautify
+[18:03:41] [Server thread/INFO]: Start loading plugin from Jade
+[18:03:41] [Server thread/INFO]: Start loading plugin from Jade
+[18:03:41] [Server thread/INFO]: Start loading plugin from Jade
+[18:05:31] [Server thread/INFO]: alebozek[/[0:0:0:0:0:0:0:1%0]:48788] logged in with entity id 17 at (95.40558802582837, 92.0, -499.69999998807907)
+[18:05:31] [Server thread/INFO]: Syncing config to alebozek (2aa13de9-e036-38d1-a719-a19f1d6558ff)
+[18:05:31] [Server thread/INFO]: alebozek joined the game
+[18:05:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4419ms or 88 ticks behind
+[18:05:39] [Server thread/INFO]: [STDOUT]: Finalizing fluid block registration
+[18:05:39] [Server thread/INFO]: [STDOUT]: Finalizing energy block registration
+[18:06:17] [Server thread/INFO]: alebozek lost connection: Disconnected
+[18:06:17] [Server thread/INFO]: alebozek left the game
+[18:06:30] [Server thread/INFO]: LaDaniWapa[/[0:0:0:0:0:0:0:1%0]:58460] logged in with entity id 289 at (-609.3187658823763, 65.0, -377.1980589171224)
+[18:06:30] [Server thread/INFO]: Syncing config to LaDaniWapa (fa6edcf1-452e-37fb-8e93-05d296a1a7e3)
+[18:06:30] [Server thread/INFO]: LaDaniWapa joined the game
+[18:06:32] [Server thread/INFO]: alebozek[/[0:0:0:0:0:0:0:1%0]:58462] logged in with entity id 359 at (88.59086356444963, 91.9375, -504.39797564296896)
+[18:06:32] [Server thread/INFO]: Syncing config to alebozek (2aa13de9-e036-38d1-a719-a19f1d6558ff)
+[18:06:32] [Server thread/INFO]: alebozek joined the game
+[18:06:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2027ms or 40 ticks behind
+[18:06:44] [Server thread/INFO]: [LaDaniWapa: Set own game mode to Survival Mode]
+[18:06:52] [Server thread/INFO]: Juxnlx[/[0:0:0:0:0:0:0:1%0]:40350] logged in with entity id 763 at (-606.3649993772151, 65.0, -360.69217553726673)
+[18:06:52] [Server thread/INFO]: Syncing config to Juxnlx (19f59efe-b029-3a48-bb4f-879ea92f269a)
+[18:06:52] [Server thread/INFO]: Juxnlx joined the game
+[18:07:12] [Server thread/INFO]: [alebozek: Teleported alebozek to Juxnlx]
+[18:07:35] [Server thread/INFO]: [Not Secure] <alebozek> zzzzzzzzzzzzzzzzzzzzzzzz
+[18:07:42] [Server thread/INFO]: [Not Secure] [LaDaniWapa] marrananana
+[18:09:55] [Server thread/INFO]: alebozek has made the advancement [Gucci backpack]
+[18:19:22] [Server thread/INFO]: alebozek has made the advancement [The Parrots and the Bats]
+[18:19:29] [Server thread/INFO]: [Not Secure] <alebozek> orgias
+[18:21:44] [Server thread/INFO]: alebozek has made the advancement [Acquire Hardware]
+[18:22:17] [Server thread/INFO]: alebozek has made the advancement [Isn't It Iron Pick]
+[18:24:52] [Server thread/INFO]: alebozek has made the advancement [Suit Up]
+[18:29:00] [Server thread/INFO]: [alebozek: Gave 1 [Diamond Pickaxe] to LaDaniWapa]
+[18:29:11] [Server thread/INFO]: [alebozek: Gave 1 [Diamond Pickaxe] to alebozek]
+[18:29:30] [Server thread/INFO]: alebozek has made the advancement [Ice Bucket Challenge]
+[18:29:55] [Server thread/INFO]: [LaDaniWapa: Applied enchantment Efficiency V to LaDaniWapa's item]
+[18:30:01] [Server thread/INFO]: [LaDaniWapa: Applied enchantment Efficiency V to alebozek's item]
+[18:30:09] [Server thread/INFO]: alebozek has made the advancement [Who is Cutting Onions?]
+[18:30:22] [Server thread/INFO]: LaDaniWapa has made the advancement [Who is Cutting Onions?]
+[18:31:11] [Server thread/INFO]: [LaDaniWapa: Applied effect Haste to LaDaniWapa]
+[18:32:03] [Server thread/INFO]: [LaDaniWapa: Applied effect Haste to LaDaniWapa]
+[18:32:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-473, y=47, z=-10} class_2338{x=-473, y=52, z=-9}
+[18:32:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-473, y=51, z=-9} class_2338{x=-473, y=51, z=-8}
+[18:32:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-473, y=51, z=-9} class_2338{x=-473, y=52, z=-8}
+[18:32:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-473, y=51, z=-9} class_2338{x=-473, y=52, z=-7}
+[18:32:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-473, y=51, z=-9} class_2338{x=-472, y=53, z=-7}
+[18:32:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-473, y=51, z=-9} class_2338{x=-473, y=53, z=-7}
+[18:32:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-473, y=51, z=-9} class_2338{x=-473, y=52, z=-6}
+[18:32:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-473, y=52, z=-6} class_2338{x=-473, y=53, z=-6}
+[18:32:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-473, y=52, z=-6} class_2338{x=-472, y=53, z=-6}
+[18:32:10] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-473, y=52, z=-6} class_2338{x=-473, y=51, z=-5}
+[18:32:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-473, y=52, z=-6} class_2338{x=-472, y=52, z=-9}
+[18:32:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-473, y=52, z=-6} class_2338{x=-471, y=52, z=-9}
+[18:32:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-473, y=52, z=-6} class_2338{x=-473, y=51, z=-9}
+[18:32:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-473, y=52, z=-6} class_2338{x=-472, y=51, z=-9}
+[18:32:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-473, y=52, z=-6} class_2338{x=-473, y=50, z=-9}
+[18:32:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-473, y=52, z=-6} class_2338{x=-471, y=49, z=-9}
+[18:32:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-473, y=52, z=-6} class_2338{x=-470, y=50, z=-9}
+[18:32:25] [Server thread/INFO]: [LaDaniWapa: Teleported LaDaniWapa to alebozek]
+[18:32:29] [Server thread/INFO]: [LaDaniWapa: Removed every effect from LaDaniWapa]
+[18:33:19] [Server thread/INFO]: [alebozek: Teleported alebozek to LaDaniWapa]
+[18:36:01] [Server thread/INFO]: alebozek has made the advancement [Diamonds!]
+[18:37:06] [Server thread/INFO]: [LaDaniWapa: Gamerule keepInventory is now set to: true]
+[18:38:23] [Server thread/INFO]: [alebozek: Teleported alebozek to alebozek]
+[18:38:30] [Server thread/INFO]: [alebozek: Teleported alebozek to LaDaniWapa]
+[18:39:21] [Server thread/INFO]: [alebozek: Teleported alebozek to LaDaniWapa]
+[18:40:16] [Server thread/INFO]: [LaDaniWapa: Set the weather to clear]
+[18:40:52] [Server thread/INFO]: [alebozek: Set the time to 1000]
+[18:41:07] [Server thread/INFO]: [alebozek: Teleported alebozek to LaDaniWapa]
+[18:42:52] [Server thread/INFO]: alebozek has made the advancement [Not Today, Thank You]
+[18:43:17] [Server thread/INFO]: [alebozek: Teleported alebozek to LaDaniWapa]
+[18:51:05] [Server thread/INFO]: [Not Secure] <alebozek> tia no hay warden
+[18:51:07] [Server thread/INFO]: [Not Secure] <alebozek> sus muertos
+[18:52:04] [Server thread/INFO]: [alebozek: Teleported alebozek to Juxnlx]
+[18:52:23] [Server thread/INFO]: [LaDaniWapa: Teleported LaDaniWapa to alebozek]
+[18:57:55] [Server thread/INFO]: alebozek has made the advancement [Take Aim]
+[18:59:41] [Server thread/INFO]: [LaDaniWapa: Gave 64 [Dirt] to LaDaniWapa]
+[19:00:38] [Server thread/INFO]: [LaDaniWapa: Gave 8 [Dirt] to LaDaniWapa]
+[19:01:39] [Server thread/INFO]: [LaDaniWapa: Gave 1 [Dirt] to LaDaniWapa]
+[19:04:30] [Server thread/INFO]: [LaDaniWapa: Gave 64 [Dirt] to LaDaniWapa]
