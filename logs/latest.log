@@ -1,0 +1,386 @@
+[20:29:43] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.15.7
+[20:29:43] [main/INFO]: Loading 110 mods:
+	- ad_astra 1.15.5
+	- argonauts 1.0.8
+	   \-- placeholder-api 2.1.1+1.20
+	- beautify 1.1.0+1.20
+	- betterchunkloading 1.20.1-3.3
+	- botarium 2.3.3
+	   \-- team_reborn_energy 3.0.0
+	- cadmus 1.0.7
+	   \-- common-protection-api 1.0.0
+	- cloth-config 11.1.118
+	   \-- cloth-basic-math 0.6.1
+	- clumps 12.0.0.3
+	- cupboard 1.20.1-2.6
+	- fabric-api 0.92.0+1.20.1
+	   |-- fabric-api-base 0.4.31+1802ada577
+	   |-- fabric-api-lookup-api-v1 1.6.36+1802ada577
+	   |-- fabric-biome-api-v1 13.0.13+1802ada577
+	   |-- fabric-block-api-v1 1.0.11+1802ada577
+	   |-- fabric-block-view-api-v2 1.0.1+1802ada577
+	   |-- fabric-blockrenderlayer-v1 1.1.41+1802ada577
+	   |-- fabric-client-tags-api-v1 1.1.2+1802ada577
+	   |-- fabric-command-api-v1 1.2.34+f71b366f77
+	   |-- fabric-command-api-v2 2.2.13+1802ada577
+	   |-- fabric-commands-v0 0.2.51+df3654b377
+	   |-- fabric-containers-v0 0.1.64+df3654b377
+	   |-- fabric-content-registries-v0 4.0.11+1802ada577
+	   |-- fabric-convention-tags-v1 1.5.5+1802ada577
+	   |-- fabric-crash-report-info-v1 0.2.19+1802ada577
+	   |-- fabric-data-attachment-api-v1 1.0.0+de0fd6d177
+	   |-- fabric-data-generation-api-v1 12.3.4+1802ada577
+	   |-- fabric-dimensions-v1 2.1.54+1802ada577
+	   |-- fabric-entity-events-v1 1.6.0+1c78457f77
+	   |-- fabric-events-interaction-v0 0.6.2+1802ada577
+	   |-- fabric-events-lifecycle-v0 0.2.63+df3654b377
+	   |-- fabric-game-rule-api-v1 1.0.40+1802ada577
+	   |-- fabric-item-api-v1 2.1.28+1802ada577
+	   |-- fabric-item-group-api-v1 4.0.12+1802ada577
+	   |-- fabric-key-binding-api-v1 1.0.37+1802ada577
+	   |-- fabric-keybindings-v0 0.2.35+df3654b377
+	   |-- fabric-lifecycle-events-v1 2.2.22+1802ada577
+	   |-- fabric-loot-api-v2 1.2.1+1802ada577
+	   |-- fabric-loot-tables-v1 1.1.45+9e7660c677
+	   |-- fabric-message-api-v1 5.1.9+1802ada577
+	   |-- fabric-mining-level-api-v1 2.1.50+1802ada577
+	   |-- fabric-model-loading-api-v1 1.0.3+1802ada577
+	   |-- fabric-models-v0 0.4.2+9386d8a777
+	   |-- fabric-networking-api-v1 1.3.11+1802ada577
+	   |-- fabric-networking-v0 0.3.51+df3654b377
+	   |-- fabric-object-builder-api-v1 11.1.3+1802ada577
+	   |-- fabric-particles-v1 1.1.2+1802ada577
+	   |-- fabric-recipe-api-v1 1.0.21+1802ada577
+	   |-- fabric-registry-sync-v0 2.3.3+1802ada577
+	   |-- fabric-renderer-api-v1 3.2.1+1802ada577
+	   |-- fabric-renderer-indigo 1.5.1+1802ada577
+	   |-- fabric-renderer-registries-v1 3.2.46+df3654b377
+	   |-- fabric-rendering-data-attachment-v1 0.3.37+92a0d36777
+	   |-- fabric-rendering-fluids-v1 3.0.28+1802ada577
+	   |-- fabric-rendering-v0 1.1.49+df3654b377
+	   |-- fabric-rendering-v1 3.0.8+1802ada577
+	   |-- fabric-resource-conditions-api-v1 2.3.8+1802ada577
+	   |-- fabric-resource-loader-v0 0.11.10+1802ada577
+	   |-- fabric-screen-api-v1 2.0.8+1802ada577
+	   |-- fabric-screen-handler-api-v1 1.3.30+1802ada577
+	   |-- fabric-sound-api-v1 1.0.13+1802ada577
+	   |-- fabric-transfer-api-v1 3.3.4+1802ada577
+	   \-- fabric-transitive-access-wideners-v1 4.3.1+1802ada577
+	- fabric-language-kotlin 1.10.17+kotlin.1.9.22
+	   |-- org_jetbrains_kotlin_kotlin-reflect 1.9.22
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 1.9.22
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 1.9.22
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 1.9.22
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.23.1
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.7.3
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.7.3
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.5.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.6.2
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.6.2
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.6.2
+	- fabricloader 0.15.7
+	   \-- mixinextras 0.3.5
+	- fallingtree 4.3.4
+	- handcrafted 3.0.6
+	- inventorysorter 1.9.0-1.20
+	   \-- kyrptconfig 1.5.6-1.20
+	- jade 11.8.0
+	- jamlib 0.6.1+1.20.x
+	- java 17
+	- jei 15.3.0.4
+	- journeymap 5.9.21
+	   \-- journeymap-api-fabric 1.20-1.9-fabric-SNAPSHOT
+	- krypton 0.2.3
+	   \-- com_velocitypowered_velocity-native 3.2.0-SNAPSHOT
+	- lazydfu 0.1.3
+	- letmedespawn 1.2.0
+	- lithium 0.11.2
+	- logcleaner 1.0.0
+	- memoryleakfix 1.1.2
+	- minecraft 1.20.1
+	- packedup 1.0.30
+	- patchouli 1.20.1-84-FABRIC
+	   \-- fiber 0.23.0-2
+	- resourcefulconfig 2.1.2
+	- resourcefullib 2.1.23
+	   |-- com_teamresourceful_bytecodecs 1.0.2
+	   \-- com_teamresourceful_yabn 1.0.3
+	- rightclickharvest 3.2.3+1.19.x-1.20.1-fabric
+	- spark 1.10.53
+	   \-- fabric-permissions-api-v0 0.1-SNAPSHOT
+	- supermartijn642configlib 1.1.8+a
+	- supermartijn642corelib 1.1.17
+	- testmod 0.1-1.20.1
+	- trinkets 3.7.2
+	   |-- cardinal-components-base 5.2.0
+	   \-- cardinal-components-entity 5.2.0
+	- yet_another_config_lib_v3 3.2.1+1.20
+	   |-- com_twelvemonkeys_common_common-image 3.10.0-SNAPSHOT
+	   |-- com_twelvemonkeys_common_common-io 3.10.0-SNAPSHOT
+	   |-- com_twelvemonkeys_common_common-lang 3.10.0-SNAPSHOT
+	   |-- com_twelvemonkeys_imageio_imageio-core 3.10.0-SNAPSHOT
+	   |-- com_twelvemonkeys_imageio_imageio-metadata 3.10.0-SNAPSHOT
+	   |-- com_twelvemonkeys_imageio_imageio-webp 3.10.0-SNAPSHOT
+	   |-- org_quiltmc_parsers_gson 0.2.1
+	   \-- org_quiltmc_parsers_json 0.2.1
+[20:29:43] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/Daniel/Desktop/polakyta%20server/libraries/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[20:29:43] [main/INFO]: Compatibility level set to JAVA_17
+[20:29:44] [main/INFO]: Loaded configuration file for Lithium: 115 options available, 1 override(s) found
+[20:29:44] [main/WARN]: Reference map 'supermartijn642configlib.mixins.refmap.json' for supermartijn642configlib.mixins.json could not be read. If this is a development environment you can ignore this message
+[20:29:44] [main/ERROR]: Could not read config betterchunkloading.json from:config\betterchunkloading.json
+java.lang.NullPointerException: Cannot invoke "com.google.gson.JsonElement.getAsJsonObject()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+	at com.betterchunkloading.config.CommonConfiguration.deserialize(CommonConfiguration.java:78) ~[betterchunkloading-fabric-1.20.1-3.3.jar:?]
+	at com.cupboard.config.CupboardConfig.load(CupboardConfig.java:159) ~[cupboard-fabric-1.20.1-2.6.jar:?]
+	at com.cupboard.config.CupboardConfig.load(CupboardConfig.java:135) ~[cupboard-fabric-1.20.1-2.6.jar:?]
+	at com.cupboard.config.CupboardConfig.getCommonConfig(CupboardConfig.java:216) ~[cupboard-fabric-1.20.1-2.6.jar:?]
+	at com.betterchunkloading.mixin.MixinConfig.shouldApplyMixin(MixinConfig.java:28) ~[betterchunkloading-fabric-1.20.1-3.3.jar:?]
+	at org.spongepowered.asm.mixin.transformer.PluginHandle.shouldApplyMixin(PluginHandle.java:132) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinInfo.shouldApplyMixin(MixinInfo.java:988) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinInfo.readDeclaredTargets(MixinInfo.java:953) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinInfo.<init>(MixinInfo.java:882) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinConfig.prepareMixins(MixinConfig.java:852) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinConfig.prepare(MixinConfig.java:777) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.prepareConfigs(MixinProcessor.java:540) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.select(MixinProcessor.java:462) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.checkSelect(MixinProcessor.java:438) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:290) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:234) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:202) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:422) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:323) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:218) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119) ~[fabric-loader-0.15.7.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:467) ~[?:?]
+	at net.fabricmc.loader.impl.util.DefaultLanguageAdapter.create(DefaultLanguageAdapter.java:50) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.entrypoint.EntrypointStorage$NewEntry.getOrCreate(EntrypointStorage.java:117) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.entrypoint.EntrypointContainerImpl.getEntrypoint(EntrypointContainerImpl.java:53) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:384) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:160) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:68) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-mc.1.20.1-loader.0.15.7-launcher.1.0.1.jar:1.0.1]
+[20:29:44] [main/ERROR]: Could not read config betterchunkloading.json from:config\betterchunkloading.json
+java.lang.NullPointerException: Cannot invoke "com.google.gson.JsonElement.getAsJsonObject()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+	at com.betterchunkloading.config.CommonConfiguration.deserialize(CommonConfiguration.java:78) ~[betterchunkloading-fabric-1.20.1-3.3.jar:?]
+	at com.cupboard.config.CupboardConfig.load(CupboardConfig.java:159) ~[cupboard-fabric-1.20.1-2.6.jar:?]
+	at com.cupboard.config.CupboardConfig.load(CupboardConfig.java:135) ~[cupboard-fabric-1.20.1-2.6.jar:?]
+	at com.cupboard.config.CupboardConfig.load(CupboardConfig.java:196) ~[cupboard-fabric-1.20.1-2.6.jar:?]
+	at com.cupboard.config.CupboardConfig.load(CupboardConfig.java:135) ~[cupboard-fabric-1.20.1-2.6.jar:?]
+	at com.cupboard.config.CupboardConfig.getCommonConfig(CupboardConfig.java:216) ~[cupboard-fabric-1.20.1-2.6.jar:?]
+	at com.betterchunkloading.mixin.MixinConfig.shouldApplyMixin(MixinConfig.java:28) ~[betterchunkloading-fabric-1.20.1-3.3.jar:?]
+	at org.spongepowered.asm.mixin.transformer.PluginHandle.shouldApplyMixin(PluginHandle.java:132) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinInfo.shouldApplyMixin(MixinInfo.java:988) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinInfo.readDeclaredTargets(MixinInfo.java:953) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinInfo.<init>(MixinInfo.java:882) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinConfig.prepareMixins(MixinConfig.java:852) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinConfig.prepare(MixinConfig.java:777) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.prepareConfigs(MixinProcessor.java:540) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.select(MixinProcessor.java:462) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.checkSelect(MixinProcessor.java:438) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:290) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:234) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:202) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:422) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:323) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:218) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119) ~[fabric-loader-0.15.7.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:467) ~[?:?]
+	at net.fabricmc.loader.impl.util.DefaultLanguageAdapter.create(DefaultLanguageAdapter.java:50) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.entrypoint.EntrypointStorage$NewEntry.getOrCreate(EntrypointStorage.java:117) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.entrypoint.EntrypointContainerImpl.getEntrypoint(EntrypointContainerImpl.java:53) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:384) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:160) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:68) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-mc.1.20.1-loader.0.15.7-launcher.1.0.1.jar:1.0.1]
+[20:29:44] [main/ERROR]: Could not read config betterchunkloading.json from:config\betterchunkloading.json
+java.lang.NullPointerException: Cannot invoke "com.google.gson.JsonElement.getAsJsonObject()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+	at com.betterchunkloading.config.CommonConfiguration.deserialize(CommonConfiguration.java:78) ~[betterchunkloading-fabric-1.20.1-3.3.jar:?]
+	at com.cupboard.config.CupboardConfig.load(CupboardConfig.java:159) ~[cupboard-fabric-1.20.1-2.6.jar:?]
+	at com.cupboard.config.CupboardConfig.load(CupboardConfig.java:135) ~[cupboard-fabric-1.20.1-2.6.jar:?]
+	at com.cupboard.config.CupboardConfig.load(CupboardConfig.java:196) ~[cupboard-fabric-1.20.1-2.6.jar:?]
+	at com.cupboard.config.CupboardConfig.load(CupboardConfig.java:135) ~[cupboard-fabric-1.20.1-2.6.jar:?]
+	at com.cupboard.config.CupboardConfig.load(CupboardConfig.java:196) ~[cupboard-fabric-1.20.1-2.6.jar:?]
+	at com.cupboard.config.CupboardConfig.load(CupboardConfig.java:135) ~[cupboard-fabric-1.20.1-2.6.jar:?]
+	at com.cupboard.config.CupboardConfig.getCommonConfig(CupboardConfig.java:216) ~[cupboard-fabric-1.20.1-2.6.jar:?]
+	at com.betterchunkloading.mixin.MixinConfig.shouldApplyMixin(MixinConfig.java:28) ~[betterchunkloading-fabric-1.20.1-3.3.jar:?]
+	at org.spongepowered.asm.mixin.transformer.PluginHandle.shouldApplyMixin(PluginHandle.java:132) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinInfo.shouldApplyMixin(MixinInfo.java:988) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinInfo.readDeclaredTargets(MixinInfo.java:953) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinInfo.<init>(MixinInfo.java:882) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinConfig.prepareMixins(MixinConfig.java:852) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinConfig.prepare(MixinConfig.java:777) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.prepareConfigs(MixinProcessor.java:540) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.select(MixinProcessor.java:462) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.checkSelect(MixinProcessor.java:438) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:290) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:234) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:202) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:422) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:323) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:218) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119) ~[fabric-loader-0.15.7.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:467) ~[?:?]
+	at net.fabricmc.loader.impl.util.DefaultLanguageAdapter.create(DefaultLanguageAdapter.java:50) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.entrypoint.EntrypointStorage$NewEntry.getOrCreate(EntrypointStorage.java:117) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.entrypoint.EntrypointContainerImpl.getEntrypoint(EntrypointContainerImpl.java:53) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:384) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:160) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:68) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-mc.1.20.1-loader.0.15.7-launcher.1.0.1.jar:1.0.1]
+[20:29:45] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [krypton]) disables it and children
+[20:29:45] [main/INFO]: [MemoryLeakFix] Will be applying 1 memory leak fixes!
+[20:29:45] [main/INFO]: [MemoryLeakFix] Currently enabled memory leak fixes: [biomeTemperatureLeak]
+[20:29:45] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[20:29:54] [main/INFO]: Loaded config for: cupboard.json
+[20:29:54] [main/INFO]: [rightclickharvest] Initializing VersionUtils
+[20:29:54] [main/INFO]: [rightclickharvest] VersionUtils initialized successfully
+[20:29:56] [main/INFO]: betterchunkloading mod initialized
+[20:29:58] [main/ERROR]: No data fixer registered for handcrafted
+[20:29:58] [main/INFO]: [jamlib] Mod initialized!
+[20:29:58] [main/INFO]: Initializing ServerSide Packet Registries
+[20:29:58] [main/INFO]: Compression will use Java, encryption will use Java
+[20:29:58] [main/INFO]: [jamlib] Registered config for rightclickharvest
+[20:29:58] [main/INFO]: [rightclickharvest] Mod initialized!
+[20:29:58] [main/INFO]: Registering Item Groups for testmod
+[20:29:58] [main/INFO]: Registering items for testmod
+[20:29:58] [main/INFO]: Registering blocks for testmod
+[20:29:58] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack ?
+[20:29:59] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20:30:01] [main/INFO]: Loaded 14 recipes
+[20:30:01] [main/INFO]: Loaded 1635 advancements
+[20:30:03] [main/INFO]: Applied 0 biome modifications to 0 of 74 new biomes in 1.391 ms
+[20:30:03] [Server thread/INFO]: Starting background profiler...
+[20:30:03] [Server thread/INFO]: The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[20:30:03] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[20:30:03] [Server thread/INFO]: Loading properties
+[20:30:03] [Server thread/INFO]: Default game type: SURVIVAL
+[20:30:03] [Server thread/INFO]: Generating keypair
+[20:30:03] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:30:03] [Server thread/INFO]: Using default channel type
+[20:30:03] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:30:03] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:30:03] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:30:03] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:30:03] [Server thread/INFO]: Preparing level "world"
+[20:30:05] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:30:07] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[20:30:07] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[20:30:07] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[20:30:07] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[20:30:07] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[20:30:08] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[20:30:08] [Worker-Main-2/INFO]: Preparing spawn area: 21%
+[20:30:08] [Server thread/INFO]: Time elapsed: 3176 ms
+[20:30:08] [Server thread/INFO]: Done (4.735s)! For help, type "help"
+[20:30:08] [Server thread/INFO]: Start loading plugin from Beautify
+[20:30:08] [Server thread/INFO]: Start loading plugin from Jade
+[20:30:08] [Server thread/INFO]: Start loading plugin from Jade
+[20:30:08] [Server thread/INFO]: Start loading plugin from Jade
+[20:31:25] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[20:31:25] [Server thread/INFO]: <--[HERE]
+[20:33:48] [Server thread/INFO]: Juxnlx[/[0:0:0:0:0:0:0:1]:50065] logged in with entity id 17 at (-602.4932860377113, 68.4880741835653, -357.7447900446699)
+[20:33:48] [Server thread/INFO]: Syncing config to Juxnlx (19f59efe-b029-3a48-bb4f-879ea92f269a)
+[20:33:48] [Server thread/INFO]: Juxnlx joined the game
+[20:34:15] [Server thread/INFO]: LaDaniWapa[/127.0.0.1:50068] logged in with entity id 246 at (50.583427207109814, 91.9375, -512.0042564858923)
+[20:34:15] [Server thread/INFO]: Syncing config to LaDaniWapa (fa6edcf1-452e-37fb-8e93-05d296a1a7e3)
+[20:34:15] [Server thread/INFO]: LaDaniWapa joined the game
+[20:34:16] [Server thread/INFO]: [STDOUT]: Finalizing energy block registration
+[20:34:46] [Server thread/INFO]: [STDOUT]: Finalizing fluid block registration
+[20:37:32] [Server thread/INFO]: [LaDaniWapa: Applied enchantment Efficiency V to LaDaniWapa's item]
+[20:37:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=53, y=94, z=-537} class_2338{x=54, y=94, z=-537}
+[20:37:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=53, y=94, z=-537} class_2338{x=54, y=94, z=-537}
+[20:37:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=53, y=94, z=-537} class_2338{x=54, y=94, z=-537}
+[20:37:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=53, y=94, z=-537} class_2338{x=54, y=94, z=-537}
+[20:37:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=53, y=94, z=-537} class_2338{x=54, y=94, z=-537}
+[20:39:54] [Server thread/INFO]: [LaDaniWapa: Teleported LaDaniWapa to Juxnlx]
+[20:42:42] [Server thread/WARN]: Juxnlx moved too quickly! 7.784747820407233,0.0,-6.455890570789336
+[20:42:46] [Server thread/INFO]: Juxnlx lost connection: Disconnected
+[20:42:46] [Server thread/INFO]: Juxnlx left the game
+[20:43:20] [Server thread/INFO]: Juxnlx[/[0:0:0:0:0:0:0:1]:50094] logged in with entity id 2952 at (-596.0484671616617, 67.1983011331206, -371.5002711328165)
+[20:43:20] [Server thread/INFO]: Syncing config to Juxnlx (19f59efe-b029-3a48-bb4f-879ea92f269a)
+[20:43:20] [Server thread/INFO]: Juxnlx joined the game
+[20:44:37] [Server thread/INFO]: LaDaniWapa lost connection: Disconnected
+[20:44:37] [Server thread/INFO]: LaDaniWapa left the game
+[20:44:52] [Server thread/INFO]: LaDaniWapa[/127.0.0.1:50113] logged in with entity id 3307 at (-575.2146957708675, 65.0, -374.47475259136183)
+[20:44:52] [Server thread/INFO]: Syncing config to LaDaniWapa (fa6edcf1-452e-37fb-8e93-05d296a1a7e3)
+[20:44:52] [Server thread/INFO]: LaDaniWapa joined the game
+[20:47:57] [Server thread/INFO]: [LaDaniWapa: Gave 10 [Pink Candle] to LaDaniWapa]
+[20:48:27] [Server thread/INFO]: [LaDaniWapa: Gave 1 [Flint and Steel] to LaDaniWapa]
+[20:49:36] [Server thread/INFO]: Mariaatleta04[/[0:0:0:0:0:0:0:1]:50128] logged in with entity id 4241 at (95.995826531912, 92.875, -498.10488081641444)
+[20:49:36] [Server thread/INFO]: Syncing config to Mariaatleta04 (242ccc22-3e60-3b42-b88e-444441ad5b34)
+[20:49:36] [Server thread/INFO]: Mariaatleta04 joined the game
+[20:51:20] [Server thread/INFO]: [Mariaatleta04: Teleported Mariaatleta04 to Juxnlx]
+[20:52:03] [Server thread/INFO]: [LaDaniWapa: Teleported LaDaniWapa to Mariaatleta04]
+[20:52:03] [Server thread/WARN]: LaDaniWapa moved too quickly! -735.5900524932691,-30.0,129.83051806349135
+[20:52:03] [Server thread/WARN]: LaDaniWapa moved too quickly! -735.5900524932691,-30.0,129.83051806349135
+[20:53:47] [Server thread/INFO]: Mariaatleta04 has made the advancement [Isn't It Iron Pick]
+[20:54:15] [Server thread/INFO]: Mariaatleta04 has made the advancement [Acquire Hardware]
+[20:55:07] [Server thread/INFO]: Mariaatleta04 has made the advancement [Cover Me with Diamonds]
+[21:01:09] [Server thread/INFO]: [LaDaniWapa: Teleported Mariaatleta04 to LaDaniWapa]
+[21:04:50] [Server thread/INFO]: [LaDaniWapa: Teleported Mariaatleta04 to LaDaniWapa]
+[21:06:30] [Server thread/INFO]: LaDaniWapa lost connection: Disconnected
+[21:06:30] [Server thread/INFO]: LaDaniWapa left the game
+[21:06:32] [Server thread/INFO]: Mariaatleta04 lost connection: Disconnected
+[21:06:32] [Server thread/INFO]: Mariaatleta04 left the game
+[21:06:38] [Server thread/INFO]: LaDaniWapa[/127.0.0.1:50134] logged in with entity id 11417 at (-909.655890008214, 64.0, -408.08876776744125)
+[21:06:38] [Server thread/INFO]: Syncing config to LaDaniWapa (fa6edcf1-452e-37fb-8e93-05d296a1a7e3)
+[21:06:38] [Server thread/INFO]: LaDaniWapa joined the game
+[21:06:42] [Server thread/INFO]: Mariaatleta04[/[0:0:0:0:0:0:0:1]:50136] logged in with entity id 11633 at (-908.4965438002889, 64.0, -410.22737021325713)
+[21:06:42] [Server thread/INFO]: Syncing config to Mariaatleta04 (242ccc22-3e60-3b42-b88e-444441ad5b34)
+[21:06:42] [Server thread/INFO]: Mariaatleta04 joined the game
+[21:20:26] [Server thread/INFO]: Mariaatleta04 has made the advancement [Ice Bucket Challenge]
+[21:20:28] [Server thread/INFO]: [LaDaniWapa: Applied enchantment Efficiency V to Mariaatleta04's item]
+[21:33:58] [Server thread/INFO]: [LaDaniWapa: Gave 1 [Dark Oak Sapling] to Mariaatleta04]
+[21:34:07] [Server thread/INFO]: [LaDaniWapa: Gave 3 [Dark Oak Sapling] to Mariaatleta04]
+[21:47:17] [Server thread/INFO]: [LaDaniWapa: Gave 1 [Diamond Axe] to Mariaatleta04]
+[21:49:52] [Server thread/INFO]: [LaDaniWapa: Set own game mode to Creative Mode]
+[21:51:58] [Server thread/INFO]: Mariaatleta04 lost connection: Disconnected
+[21:51:58] [Server thread/INFO]: Mariaatleta04 left the game
+[21:52:07] [Server thread/INFO]: Juxnlx lost connection: Disconnected
+[21:52:07] [Server thread/INFO]: Juxnlx left the game
+[21:52:17] [Server thread/INFO]: LaDaniWapa lost connection: Disconnected
+[21:52:17] [Server thread/INFO]: LaDaniWapa left the game
+[21:52:24] [Server thread/INFO]: Stopping the server
+[21:52:24] [Server thread/INFO]: Stopping server
+[21:52:24] [Server thread/INFO]: Saving players
+[21:52:24] [Server thread/INFO]: Saving worlds
+[21:52:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21:52:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[21:52:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/ad_astra:glacio
+[21:52:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/ad_astra:venus_orbit
+[21:52:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mars_orbit
+[21:52:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/ad_astra:glacio_orbit
+[21:52:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mercury_orbit
+[21:52:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/ad_astra:earth_orbit
+[21:52:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/ad_astra:moon
+[21:52:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mercury
+[21:52:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mars
+[21:52:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/ad_astra:venus
+[21:52:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/ad_astra:moon_orbit
+[21:52:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[21:52:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21:52:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:52:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (glacio): All chunks are saved
+[21:52:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (venus_orbit): All chunks are saved
+[21:52:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (mars_orbit): All chunks are saved
+[21:52:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (glacio_orbit): All chunks are saved
+[21:52:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (mercury_orbit): All chunks are saved
+[21:52:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (earth_orbit): All chunks are saved
+[21:52:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (moon): All chunks are saved
+[21:52:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (mercury): All chunks are saved
+[21:52:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (mars): All chunks are saved
+[21:52:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (venus): All chunks are saved
+[21:52:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (moon_orbit): All chunks are saved
+[21:52:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:52:24] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
