@@ -15,10 +15,14 @@
     "criteria": {
       "minecraft:bamboo_jungle": "2024-05-18 19:32:52 +0000",
       "minecraft:wooded_badlands": "2024-05-18 19:32:42 +0000",
+      "minecraft:beach": "2024-05-30 17:45:18 +0000",
+      "minecraft:sparse_jungle": "2024-05-30 17:43:42 +0000",
       "minecraft:river": "2024-05-18 19:32:27 +0000",
+      "minecraft:lukewarm_ocean": "2024-05-30 17:45:23 +0000",
       "minecraft:lush_caves": "2024-05-18 19:36:35 +0000",
       "minecraft:desert": "2024-05-18 19:33:36 +0000",
-      "minecraft:jungle": "2024-05-18 19:31:12 +0000"
+      "minecraft:jungle": "2024-05-18 19:31:12 +0000",
+      "minecraft:plains": "2024-05-30 17:45:59 +0000"
     },
     "done": false
   },
@@ -871,7 +875,9 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2024-05-18 19:43:50 +0000",
-      "minecraft:zombie": "2024-05-18 19:44:01 +0000"
+      "minecraft:enderman": "2024-05-30 17:41:53 +0000",
+      "minecraft:zombie": "2024-05-18 19:44:01 +0000",
+      "minecraft:drowned": "2024-05-30 17:41:18 +0000"
     },
     "done": false
   },
@@ -1239,6 +1245,108 @@
   "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
     "criteria": {
       "has_salmon": "2024-05-18 19:53:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2024-05-30 17:48:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_wood": {
+    "criteria": {
+      "has_log": "2024-05-30 17:48:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite_stairs": {
+    "criteria": {
+      "has_andesite": "2024-05-30 17:51:23 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/andesite_corner_trim": {
+    "criteria": {
+      "has_andesite_corner_trim": "2024-05-30 17:51:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/andesite_wall_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2024-05-30 17:51:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2024-05-30 17:44:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_slab_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2024-05-30 17:51:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite_slab_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2024-05-30 17:51:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite_stairs_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2024-05-30 17:51:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2024-05-30 17:54:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_planks": {
+    "criteria": {
+      "has_logs": "2024-05-30 17:48:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2024-05-30 17:51:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite": {
+    "criteria": {
+      "has_andesite": "2024-05-30 17:51:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/andesite_wall": {
+    "criteria": {
+      "has_andesite": "2024-05-30 17:51:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite_slab": {
+    "criteria": {
+      "has_andesite": "2024-05-30 17:51:23 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/andesite_pillar_trim": {
+    "criteria": {
+      "has_andesite_pillar_trim": "2024-05-30 17:51:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_stairs_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2024-05-30 17:51:23 +0000"
     },
     "done": true
   },
